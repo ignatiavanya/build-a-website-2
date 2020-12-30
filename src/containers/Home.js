@@ -14,9 +14,13 @@ function Home() {
   return (
     // Container
     <div className="flex flex-col h-screen bg-green-500">
-      <City cityName={"Tokyo"} temp={"10°C"} color={"bg-yellow-500"} />
-      <City cityName={"Jakarta"} temp={"24°C"} color={"bg-red-500"} />{" "}
-      <City cityName={"Bandung"} temp={"17°C"} color={"bg-blue-500"} />
+      <City cityName={"Jakarta"} temp={"26°C"} color={"bg-yellow-200"} />
+      <City cityName={"Tokyo"} temp={"2°C"} color={"bg-yellow-300"} />{" "}
+      <City cityName={"London"} temp={"3°C"} color={"bg-yellow-400"} />
+      <City cityName={"Seoul"} temp={"-12°C"} color={"bg-yellow-500"} />
+      <City cityName={"Toronto"} temp={"3°C"} color={"bg-yellow-600"} />{" "}
+      <City cityName={"Melbourne"} temp={"17°C"} color={"bg-yellow-700"} />
+      <City cityName={"Tokyo"} temp={"10°C"} color={"bg-yellow-800"} />
     </div>
   );
 }
