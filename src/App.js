@@ -1,14 +1,17 @@
 import './App.css';
-import img1 from './assets/img1.jpeg';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+
+import Home from "./containers/Home";
 
 function App() {
   return (
-    <div className="App bg-blue-200 h-screen flex items-center justify-center">
-      <header className="App-header">
-        <img src={img1} />
-        <p>Hello</p>
-      </header>
-    </div>
+    <Router>
+      <Switch>
+        <Route path="/">
+        <Home />
+        </Route>
+      </Switch>
+    </Router>
   );
 }
 
